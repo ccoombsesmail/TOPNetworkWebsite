@@ -28,7 +28,7 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="About"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -36,26 +36,23 @@ function HeaderLinks({ ...props }) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              All components
+              Team
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+             <Link to="/" className={classes.dropdownLink}>
+             Ambassedors
+           </Link>
+           
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          href="https://www.topnetwork.org/whitepaper"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> Whitepaper
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -66,7 +63,7 @@ function HeaderLinks({ ...props }) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim"
+            href="https://twitter.com/topnetwork_top?lang=en"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -75,40 +72,8 @@ function HeaderLinks({ ...props }) {
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/CreativeTim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaFacebook/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaInstagram/>
-          </Button>
-        </Tooltip>
-      </ListItem>
+     
+  
     </List>
   );
 }

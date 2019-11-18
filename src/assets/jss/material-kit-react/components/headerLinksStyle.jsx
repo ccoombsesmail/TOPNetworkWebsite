@@ -19,7 +19,7 @@ const headerLinksStyle = theme => ({
     position: "relative",
     display: "block",
     width: "auto",
-    margin: "0",
+    margin: "0px 20px 0",
     padding: "0",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
@@ -41,7 +41,7 @@ const headerLinksStyle = theme => ({
     position: "relative",
     padding: "0.9375rem",
     fontWeight: "400",
-    fontSize: "12px",
+    fontSize: "16px",
     textTransform: "uppercase",
     borderRadius: "3px",
     lineHeight: "20px",
@@ -102,7 +102,7 @@ const headerLinksStyle = theme => ({
   },
   dropdownLink: {
     "&,&:hover,&:focus": {
-      color: "inherit",
+      color: "black",
       textDecoration: "none",
       display: "block",
       padding: "10px 20px"

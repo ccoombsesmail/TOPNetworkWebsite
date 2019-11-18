@@ -12,6 +12,8 @@ import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
+import { Link } from "gatsby";
+
 import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
@@ -73,8 +75,9 @@ class Header extends React.Component {
       [classes.absolute]: absolute,
       [classes.fixed]: fixed
     });
-    const brandComponent = <Button className={classes.title}>{brand}</Button>;
+    const brandComponent = <Link to="/" className={classes.title}> <img  className = "logo" src={require("../../assets/img/logo.png")}/>   </Link>;
     return (
+     
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
           {leftLinks !== undefined ? brandComponent : null}
@@ -122,7 +125,7 @@ class Header extends React.Component {
 }
 
 Header.defaultProp = {
-  color: "white"
+  color: "dark"
 };
 
 Header.propTypes = {

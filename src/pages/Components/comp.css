@@ -1,0 +1,175 @@
+
+#scale {
+
+    -webkit-animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(.1);
+              transform: scale(.1);
+      opacity: 0;
+
+    }
+    
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    opacity: 1;
+
+    }
+  
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    opacity: 1;
+     
+    }
+  }
+
+
+
+
+.logo {
+
+    width: 200px;
+}
+
+
+
+
+
+
+  .center-div{ 
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+
+  }
+  .center-div1{ 
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #232526;  
+      background: -webkit-linear-gradient(to right, #414345, #232526);  
+      background: linear-gradient(to right, #414345, #232526); 
+
+  }
+  .centerTitle{
+
+    display: inline-block;
+
+  }
+  .centerSubTitle{
+
+    display: inline-block;
+
+  }
+
+
+
+  .img1 {
+    width: 100%;
+
+  }
+
+  .left-div {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+
+  }
+
+  
+  .img2{
+
+    display: inline-block;
+    width: 35%;
+    margin-left: 3%;
+
+
+
+  }
+
+  .description-div {
+
+
+    display: inline-block;
+    margin-left: 5%;
+
+
+  }
+  
+  .maindescription{
+
+    font-size: 5vw;
+    font-weight: 600;
+
+
+  }
+
+  .subdescription {
+    font-size: 3vw;
+    font-weight: 400;
+
+
+
+  }
+
+
+ 
+  .featureWrap{
+
+    text-align: center;
+
+  }
+    .features {
+      padding-top: 10vh;
+      display: inline-flex;  
+
+     
+    /*   background: #232526;  
+      background: -webkit-linear-gradient(to right, #414345, #232526);  
+      background: linear-gradient(to right, #414345, #232526);  
+       */
+    }
+  
+
+
+    @media only screen and (max-width: 600px) {
+      .centerTitle {
+        font-size: 7vw;
+        padding: 0 5px 5px;
+      }
+      .centerSubTitle {
+        font-size: 5vw;
+        
+
+      }
+      .features{
+
+        display: inline-block;
+
+      }
+    }
+
+  

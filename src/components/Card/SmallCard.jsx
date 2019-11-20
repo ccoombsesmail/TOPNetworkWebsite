@@ -33,7 +33,7 @@ const smallcard = (props) => {
     let img2 = props.imgURL
     let m = 10
     if (props.margin == 100) {
-         m = 100
+         m = 70
     }
 
     return (
@@ -42,7 +42,7 @@ const smallcard = (props) => {
         <div className = "wrapper" style = {{margin: m + "px"}}>
         {console.log(m)}
 
-        <div className = "contents"  >
+        <div className = "contents"   >
         <img className = "icon" src = {require("../../assets/img" + img2)} />
 
             <h2  > {props.title} </h2>

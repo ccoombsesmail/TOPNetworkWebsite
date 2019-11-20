@@ -19,7 +19,7 @@ const headerLinksStyle = theme => ({
     position: "relative",
     display: "block",
     width: "auto",
-    margin: "0px 20px 0",
+    margin: "0px 15px 0",
     padding: "0",
     [theme.breakpoints.down("sm")]: {
       width: "100%",

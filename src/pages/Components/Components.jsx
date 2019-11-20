@@ -70,10 +70,11 @@ scrollEvent = () => {
           <div className = "center-div">
           <ScrollAnimation animateIn="fadeInUp"  animateOut="fadeOut" animatePreScroll = "false">
           <h1 className = "centerTitle"> TOP Chain is a full-state sharded public chain that can support real-world applications </h1>
-          <h3 className = "centerSubTitle"> TOP Network overcomes the blockchain scalability trilemma through innovative scaling techniques, including full-state sharding </h3>
+          <h3 className = "centerSubTitle"> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive scaling techniques </h3>
           </ScrollAnimation>
 
           </div>
+
           <ScrollAnimation animateIn="fadeInRight">
 
           <div className = "left-div">
@@ -109,11 +110,6 @@ scrollEvent = () => {
           </div>
           </ScrollAnimation>
 
-
-
-          
-
-
           <ScrollAnimation animateIn="fadeInRight">
 
 <div className = "left-div">
@@ -144,57 +140,121 @@ scrollEvent = () => {
           */}
 
 
-            <div className = "center-div1">
-          <ScrollAnimation animateIn="fadeInUp"  animateOut="fadeOut" animatePreScroll = "false">
-          <h1 className = "centerTitle"> TOP Network Features </h1>
-          </ScrollAnimation>
 
-          </div>
+<div className = "center-div1">
 
-          <div className = "featureWrap">
+  <ScrollAnimation animateIn="fadeInUp"  animateOut="fadeOut" animatePreScroll = "false">
+  <h1 className = "centerTitle" style = {{color: "white"}}> TOP Chain Features </h1>
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Chain Is A Blazing Fast and Completely Permisionless Public Chain With Carefully Crafted Token Economics  </h3>         
 
-          <div className = "features">
+  </ScrollAnimation>
+         
+
+</div>
+
+<div className = "featureWrap">
+
+  <div className = "features">
+    <ScrollAnimation animateIn="fadeInUp">
+    <SmallCard title = "Zero Gas Fees" subtitle = "Deposit Tokens For On-Chain Resources" imgURL = "/gas.png"  /> 
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="200" >
+    <SmallCard imgURL = "/time.png"  title = "Near Instant Finality" subtitle = "Transactions Confirmed in 1-3 Seconds" /> 
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="400">
+    <SmallCard title = "High Throughput" subtitle = "> 100,000 TPS" imgURL = "/exchange.png" />
+    </ScrollAnimation>
+
+  </div>
+
+  <div className = "features">
+
+    <ScrollAnimation animateIn="fadeInUp">
+    <SmallCard title = "Decentralized" subtitle = "TOP Chain is Completely Permisionless" imgURL = "/nodes.png"/>
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="200">
+    <SmallCard title = "State Sharding" subtitle = "The First Full-State Sharding Public Chain" imgURL = "/cloud.png"/>
+    </ScrollAnimation>
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="400">
+    <SmallCard title = "Multi-Chain" subtitle = "Pluggable Service Chains For Any Workflow" imgURL = "/blockchain.png" />
+    </ScrollAnimation>
+
+  </div>
+
+</div>
+<ScrollAnimation animateIn="fadeInUp"   duration = "2" >
+<div className = "center-div2">
+  
+<ScrollAnimation animateIn="fadeInUp"  duration = "2" >
+
+  <h1 className = "centerTitle" style = {{color: "white"}}> TOP Network Service Layer </h1>
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Also Provides An Open, Full-Stack Decentralized Communcations Network, Allowing Developers To Easily Integrate Communcations Functions Into Their Apps</h3>    
+     
+  </ScrollAnimation>
+
+</div>
+</ScrollAnimation>
+
+
+<div className = "featureWrap">
+
+  <div className = "features">
+    <ScrollAnimation animateIn="fadeInLeft" duration = "2" delay = "400">
+    <SmallCard title = "Virtual Private Network" subtitle = "No Centralized Servers" imgURL = "/vpn.png"  /> 
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInLeft" delay ="200" duration = "2" >
+    <SmallCard imgURL = "/call.png"  title = "VoIP" subtitle = "Low-Cost Internet Calling" /> 
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInRight" delay ="400" duration = "2">
+    <SmallCard title = "Video Calling" subtitle = "Low-Cost Video Chat" imgURL = "/video.png" />
+    </ScrollAnimation>
+
+    <ScrollAnimation animateIn="fadeInRight" delay ="400" duration = "2" delay = "400">
+    <SmallCard title = "IoT Data Sharing" subtitle = "Decentralized Edge Computing and Data Transfer" imgURL = "/iot.png" />
+    </ScrollAnimation>
+
+  </div>
+
+  <div className = "features">
+
+    <ScrollAnimation animateIn="fadeInLeft" delay = "400"  duration = "2">
+    <SmallCard title = "Storage" subtitle = "Decentralized Storage Network" imgURL = "/cloud.png"/>
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInLeft"  duration = "2" >
+    <SmallCard title = "Chat" subtitle = "Decentralized Messaging" imgURL = "/chat.png"/>
+    </ScrollAnimation>
+
+    <ScrollAnimation animateIn="fadeInRight"   duration = "2">
+    <SmallCard title = "CDN" subtitle = "Fast and Efficient Content Distribution Network" imgURL = "/network.png" />
+    </ScrollAnimation>
+
+    <ScrollAnimation animateIn="fadeInRight" delay ="400"  duration = "2">
+    <SmallCard title = "Live-Streaming" subtitle = "Decentralized Live-Stream Service" imgURL = "/live.png" />
+    </ScrollAnimation>
+
+  </div>
+
+</div>
+
+
           <ScrollAnimation animateIn="fadeInUp">
-          <SmallCard>Zero Gas Fees </SmallCard>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" delay ="200">
-
-            <SmallCard >Zero Gas Fees </SmallCard>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInUp" delay ="400">
-
-            <SmallCard>Zero Gas Fees </SmallCard>
-            </ScrollAnimation>
-
-          </div>
-
-          <div className = "features">
-          <ScrollAnimation animateIn="fadeInUp">
-          <SmallCard>Zero Gas Fees </SmallCard>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" delay ="200">
-
-            <SmallCard >Zero Gas Fees </SmallCard>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInUp" delay ="400">
-
-            <SmallCard>Zero Gas Fees </SmallCard>
-            </ScrollAnimation>
-
-            
-          </div>
-
-          </div>
-
-          <ScrollAnimation animateIn="fadeInUp">
-
           <div className = "center-div">
-
           <h1 className = "center"> Latest News </h1>
-
           </div>
           </ScrollAnimation>
-
           <SectionCarousel />
           
         </div>

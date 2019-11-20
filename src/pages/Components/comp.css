@@ -71,6 +71,17 @@
       background: linear-gradient(to right, #414345, #232526); 
 
   }
+
+  .center-div2{ 
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    height: 600px;
+    background: black;  
+    background-image: url("../../assets/img/network.jpg");
+      
+  }
   .centerTitle{
 
     display: inline-block;
@@ -79,6 +90,9 @@
   .centerSubTitle{
 
     display: inline-block;
+    width:70%;
+    margin-left: 100px;
+    margin-right: 100px;
 
   }
 
@@ -103,7 +117,7 @@
   .img2{
 
     display: inline-block;
-    width: 35%;
+    width: 30%;
     margin-left: 3%;
 
 
@@ -121,14 +135,14 @@
   
   .maindescription{
 
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 600;
 
 
   }
 
   .subdescription {
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 400;
 
 
@@ -167,9 +181,28 @@
       }
       .features{
 
-        display: inline-block;
+        display: block;
 
       }
+      .maindescription{
+
+        font-size: 5vw;
+        font-weight: 600;
+    
+    
+      }
+    
+      .subdescription {
+        font-size: 3vw;
+        font-weight: 400;
+    
+    
+    
+      }
+    
+
+    
     }
 
   
+

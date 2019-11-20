@@ -55,6 +55,32 @@ function HeaderLinks({ ...props }) {
           <CloudDownload className={classes.icons} /> Whitepaper
         </Button>
       </ListItem>
+      
+
+      <ListItem className={classes.listItem}>
+      <Button
+            href="https://www.hiwallet.org/"
+            target="_blank"
+            color="transparent"
+            className={classes.navLink}
+          >
+          Wallet
+            </Button>
+
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+      <Button
+            href="https://www.topnetwork.org/swap"
+            target="_blank"
+            color="transparent"
+            className={classes.navLink}
+          >
+          Swap
+            </Button>
+
+      </ListItem>
+
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"

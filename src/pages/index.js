@@ -17,6 +17,7 @@ export default () => (
 {/*       <Route path="/profile-page" component={ProfilePage} />
 
  */}      <Route path="/" component={Components} />
+          
     </Switch>
   </Router>
 );

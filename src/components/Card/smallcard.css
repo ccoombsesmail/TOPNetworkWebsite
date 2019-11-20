@@ -1,0 +1,77 @@
+
+
+
+.wrapper {
+transition: 0.3s;
+border-radius: 15px; 
+color: black;
+width: 22vw;
+height: 25vh;
+margin-left: 10px;
+text-align: center;
+
+}
+
+.contents {
+
+    display: inline-block;
+    margin-top: 10%;
+
+}
+
+
+
+.icon {
+
+width:100px;
+height: 100px;
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .wrapper {
+
+        width: 100%;
+        margin-bottom: 30%;
+
+    }
+
+   
+    .contents {
+
+        display: inline-block;
+
+
+    }
+
+
+    @media only screen and (max-width: 350px) {
+
+        .wrapper {
+    
+            width: 100%;
+            margin-bottom: 60%;
+    
+        }
+    
+       
+        .contents {
+    
+            display: inline-block;
+    
+    
+        }
+    
+    
+    
+    
+  }
+
+}
+
+

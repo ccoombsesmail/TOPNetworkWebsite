@@ -7,7 +7,7 @@ border-radius: 15px;
 color: black;
 width: 22vw;
 height: 25vh;
-margin-left: 10px;
+margin: 10px;
 text-align: center;
 
 }
@@ -23,8 +23,8 @@ text-align: center;
 
 .icon {
 
-width:100px;
-height: 100px;
+width:120px;
+height: 120px;
 
 
 
@@ -44,7 +44,9 @@ height: 100px;
    
     .contents {
 
-        display: inline-block;
+        display: block;
+        margin-top: 200px;
+       
 
 
     }
@@ -62,7 +64,7 @@ height: 100px;
        
         .contents {
     
-            display: inline-block;
+            display: block;
     
     
         }

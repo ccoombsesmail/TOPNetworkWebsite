@@ -14,9 +14,9 @@ export default () => (
   <Router history={hist}>
     <Switch>
      
-{/*       <Route path="/profile-page" component={ProfilePage} />
-
- */}      <Route path="/" component={Components} />
+{/*       <Route path="/team" component={TeamPage} />
+ */}
+      <Route path="/" component={Components} />
           
     </Switch>
   </Router>

@@ -10,7 +10,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -55,6 +54,7 @@ scrollEvent = () => {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
+                  
                   <h6 className={classes.title} id="scale" >TOP Network</h6>
                   <h3 className={classes.subtitle} id="scale" >A High-Performance Public Blockchain Platform and Decentralized Communications Infrastructure
                   </h3>
@@ -68,12 +68,47 @@ scrollEvent = () => {
 
 
           <div className = "center-div">
-          <ScrollAnimation animateIn="fadeInUp"  animateOut="fadeOut" animatePreScroll = "false">
-          <h1 className = "centerTitle"> TOP Chain is a full-state sharded public chain that can support real-world applications </h1>
-          <h3 className = "centerSubTitle"> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive scaling techniques </h3>
-          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
 
+          <h1 className = "centerTitle"> What Is TOP Network? </h1>
+          <h3 className = "centerSubTitle"> TOP Network Is A Decentralized Ecosystem Consisting of Three Seperate but Complementary Components  </h3>
+          </ScrollAnimation>
           </div>
+
+          <div className = "featureWrap" id="featureWrapTop">
+
+  <div className = "features">
+    <ScrollAnimation animateIn="fadeInUp">
+    <SmallCard title = "TOP Chain" subtitle = "The First Full-State Sharded Public Chain Capable of Supporting Real-World Applications" imgURL = "/blockchain.png" margin = "100" /> 
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="200" >
+    <SmallCard imgURL = "/nodes.png"  title = "Decentralized Communications Infrastructure" subtitle = "A Completely Open, Decentralized Communications Network Powered By TOP Chain" margin = "100" /> 
+    </ScrollAnimation>
+
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="400">
+    <SmallCard title = "80 Million User App Ecosystem" subtitle = "A Collection of Previously Developed Apps That Will Collectively Bring 80 Million Users To The TOP Network Ecosystem" imgURL = "/smartphone.png" margin = "100" />
+    </ScrollAnimation>
+
+  </div>
+</div>
+
+{/*           <h1 className = "centerTitle"> TOP Chain is a full-state sharded public chain that can support real-world applications </h1>
+          <h3 className = "centerSubTitle"> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive scaling techniques.  </h3> */}
+
+<div className = "center-div1">
+<ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
+  
+  <h1 className = "centerTitle" style = {{color: "white"}}> Solving The Blockchain Scalability Trilemma </h1>
+
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive horizontal scale-out techniques </h3>
+
+  </ScrollAnimation>
+
+
+</div>
 
           <ScrollAnimation animateIn="fadeInRight">
 
@@ -97,7 +132,7 @@ scrollEvent = () => {
           <div className = "left-div">
 
 
-          <div className = "description-div">
+          <div className = "description-div2">
             <h1 className = "maindescription"> Multi-Level Sharding</h1>
             <h3 className = "subdescription"> Two-Layer State Sharding  </h3>
             <h3 className = "subdescription"> Three-Layer Compute Sharding </h3>
@@ -179,7 +214,7 @@ scrollEvent = () => {
 
 
     <ScrollAnimation animateIn="fadeInUp" delay ="200">
-    <SmallCard title = "State Sharding" subtitle = "The First Full-State Sharding Public Chain" imgURL = "/cloud.png"/>
+    <SmallCard title = "Smart-Contracts" subtitle = "Scalable, Low-Cost Smart-Contracts" imgURL = "/smart.png"/>
     </ScrollAnimation>
 
     <ScrollAnimation animateIn="fadeInUp" delay ="400">
@@ -195,7 +230,7 @@ scrollEvent = () => {
 <ScrollAnimation animateIn="fadeInUp"  duration = "2" >
 
   <h1 className = "centerTitle" style = {{color: "white"}}> TOP Network Service Layer </h1>
-  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Also Provides An Open, Full-Stack Decentralized Communcations Network, Allowing Developers To Easily Integrate Communcations Functions Into Their Apps</h3>    
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Also Provides An Open, Full-Stack Decentralized Communications Network, Allowing Developers To Easily Integrate Low-Cost Communcations  Functions Into Their Apps</h3>    
      
   </ScrollAnimation>
 

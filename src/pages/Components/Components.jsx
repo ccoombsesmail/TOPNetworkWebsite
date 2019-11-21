@@ -51,10 +51,12 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  
-                  <h6 className={classes.title} id="scale" >TOP Network</h6>
-                  <h3 className={classes.subtitle} id="scale" >A High-Performance Public Blockchain Platform and Decentralized Communications Infrastructure
+                <ScrollAnimation animateIn="fadeIn">
+
+                  <h6 className={classes.title}  >TOP Network</h6>
+                  <h3 className={classes.subtitle} >A High-Performance Public Blockchain Platform and Decentralized Communications Infrastructure
                   </h3>
+                  </ScrollAnimation>
                 </div>
               </GridItem>
             </GridContainer>

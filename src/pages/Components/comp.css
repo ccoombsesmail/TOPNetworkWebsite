@@ -80,7 +80,35 @@
     background-image: url("../../assets/img/network.jpg");
       
   }
+  .center-div3{ 
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #232526;  
+      background: -webkit-linear-gradient(to right, #414345, #232526);  
+      background: linear-gradient(to left, #414345, #232526); 
 
+
+
+
+  }
+
+  .contract-div {
+
+    margin-bottom: 30vh;
+    text-align: left;
+   
+
+
+  }
+
+  .contract-pic {
+
+    width: 40%;
+    display: inline-block;
+    float: left;
+  }
  
   .centerTitle{
 
@@ -173,6 +201,7 @@
     
 
   }
+  
 
 
     .features {
@@ -201,6 +230,28 @@
         
 
       }
+      .contract-div {
+
+    
+        margin-bottom: 30vh;
+   
+
+      }
+
+      .contract-pic {
+
+        width: 80%;
+        float: bottom;
+        margin-left: 10%;
+
+      }
+
+      #featureWrapContract {
+        padding-top: 20vh;
+    
+        
+      }
+
       .features{
 
         display: block;

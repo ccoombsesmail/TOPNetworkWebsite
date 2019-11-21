@@ -19,6 +19,8 @@ import "./comp.css"
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import SmallCard from "components/Card/SmallCard.jsx";
+import MainDescription from "./Sections/MainDescription.jsx"
+import TrilemmaTech from "./Sections/TrilemmaTech"
 
 
 
@@ -27,11 +29,6 @@ import SmallCard from "components/Card/SmallCard.jsx";
 class Components extends React.Component {
 
 
-scrollEvent = () => {
-
-
-
-}
 
 
   render() {
@@ -64,134 +61,50 @@ scrollEvent = () => {
           </div>
         </Parallax>
 
-        <div className={classNames(classes.main, classes.mainRaised)}>
 
 
-          <div className = "center-div">
-          <ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
-
-          <h1 className = "centerTitle"> What Is TOP Network? </h1>
-          <h3 className = "centerSubTitle"> TOP Network Is A Decentralized Ecosystem Consisting of Three Seperate but Complementary Components  </h3>
-          </ScrollAnimation>
-          </div>
-
-          <div className = "featureWrap" id="featureWrapTop">
-
-  <div className = "features">
-    <ScrollAnimation animateIn="fadeInUp">
-    <SmallCard title = "TOP Chain" subtitle = "The First Full-State Sharded Public Chain Capable of Supporting Real-World Applications" imgURL = "/blockchain.png" margin = "100" /> 
-    </ScrollAnimation>
 
 
-    <ScrollAnimation animateIn="fadeInUp" delay ="200" >
-    <SmallCard imgURL = "/nodes.png"  title = "Decentralized Communications Infrastructure" subtitle = "A Completely Open, Decentralized Communications Network Powered By TOP Chain" margin = "100" /> 
-    </ScrollAnimation>
 
 
-    <ScrollAnimation animateIn="fadeInUp" delay ="400">
-    <SmallCard title = "80 Million User App Ecosystem" subtitle = "A Collection of Previously Developed Apps That Will Collectively Bring 80 Million Users To The TOP Network Ecosystem" imgURL = "/smartphone.png" margin = "100" />
-    </ScrollAnimation>
-
-  </div>
-</div>
-
-{/*           <h1 className = "centerTitle"> TOP Chain is a full-state sharded public chain that can support real-world applications </h1>
-          <h3 className = "centerSubTitle"> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive scaling techniques.  </h3> */}
-
-<div className = "center-div1">
-<ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
-  
-  <h1 className = "centerTitle" style = {{color: "white"}}> Solving The Blockchain Scalability Trilemma </h1>
-
-  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive horizontal scale-out techniques </h3>
-
-  </ScrollAnimation>
+<div className={classNames(classes.main, classes.mainRaised)}>
 
 
-</div>
 
-          <ScrollAnimation animateIn="fadeInRight">
-
-          <div className = "left-div">
-
-
-          <img className = "img2" src = {require("assets/img/layerscaling1.png")} />
-          <div className = "description-div">
-            <h1 className = "maindescription"> Multi-Layer Scaling</h1>
-            <h3 className = "subdescription"> Layer-0: Gossip Based p2p Overlay Network </h3>
-            <h3 className = "subdescription"> Layer-1: State, Compute, Network Sharding </h3>
-            <h3 className = "subdescription"> Layer-2: State-Channels, Service Chains</h3>
-
-          </div>
-
-          </div>
-          </ScrollAnimation>
-
-          <ScrollAnimation animateIn="fadeInLeft" >
-
-          <div className = "left-div">
-
-
-          <div className = "description-div2">
-            <h1 className = "maindescription"> Multi-Level Sharding</h1>
-            <h3 className = "subdescription"> Two-Layer State Sharding  </h3>
-            <h3 className = "subdescription"> Three-Layer Compute Sharding </h3>
-            <h3 className = "subdescription"> Three-Layer Network Sharding</h3>
-
-          </div>
-          <img className = "img2" src = {require("assets/img/shardingmulti.png")} />
-
-
-          </div>
-          </ScrollAnimation>
-
-          <ScrollAnimation animateIn="fadeInRight">
-
-<div className = "left-div">
-
-<img className = "img2" src = {require("assets/img/lattice1.png")} />
-
-<div className = "description-div">
-  <h1 className = "maindescription">DAG-Based Lattice Data Structure </h1>
-  <h3 className = "subdescription"> Unit-Lattice: Parallel Consensus On Account Chains</h3>
-  <h3 className = "subdescription"> Block-Lattice: Shard Synchronization </h3>
-
+<div className = "center-div">
+      <ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
+        <h1 className = "centerTitle"> What Is TOP Network? </h1>
+        <h3 className = "centerSubTitle"> TOP Network Is A Full-Stack Blockchain Platform Consisting of Three Comprehensive Layers That Together Can Support The Development and Operation of Real-World Decentralized Applications </h3>
+      </ScrollAnimation>
 </div>
 
 
-</div>
-</ScrollAnimation>
 
-
-      
-
-          {/* 
-          A picture of the images in text instead of seperate components. Scales better on mobile
-          <div className = "center-div">
-
-         <img className = "img1" src = {require("assets/img/tech.png")} />
-      
-          </div>
-          */}
+<MainDescription/>
 
 
 
+
+          
 <div className = "center-div1">
 
   <ScrollAnimation animateIn="fadeInUp"  animateOut="fadeOut" animatePreScroll = "false">
-  <h1 className = "centerTitle" style = {{color: "white"}}> TOP Chain Features </h1>
-  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Chain Is A Blazing Fast and Completely Permisionless Public Chain With Carefully Crafted Token Economics  </h3>         
+    <h1 className = "centerTitle" style = {{color: "white"}}> TOP Chain Features </h1>
+    <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Chain Is A Blazing Fast and Completely Permisionless Public Chain With Carefully Crafted Token Economics  </h3>         
 
   </ScrollAnimation>
          
 
 </div>
 
+
+
+
 <div className = "featureWrap">
 
   <div className = "features">
     <ScrollAnimation animateIn="fadeInUp">
-    <SmallCard title = "Zero Gas Fees" subtitle = "Deposit Tokens For On-Chain Resources" imgURL = "/gas.png"  /> 
+    <SmallCard title = "Zero Gas Fees" subtitle = "Friendly Token Economics For Users and Developers" imgURL = "/gas.png"  /> 
     </ScrollAnimation>
 
 
@@ -201,7 +114,7 @@ scrollEvent = () => {
 
 
     <ScrollAnimation animateIn="fadeInUp" delay ="400">
-    <SmallCard title = "High Throughput" subtitle = "> 100,000 TPS" imgURL = "/exchange.png" />
+    <SmallCard title = "High Throughput" subtitle = "> 10,000 TPS" imgURL = "/exchange.png" />
     </ScrollAnimation>
 
   </div>
@@ -214,7 +127,7 @@ scrollEvent = () => {
 
 
     <ScrollAnimation animateIn="fadeInUp" delay ="200">
-    <SmallCard title = "Smart-Contracts" subtitle = "Scalable, Low-Cost Smart-Contracts" imgURL = "/smart.png"/>
+    <SmallCard title = "Smart-Contracts" subtitle = "Scalable Platform and Application Layer Smart-Contracts" imgURL = "/smart.png"/>
     </ScrollAnimation>
 
     <ScrollAnimation animateIn="fadeInUp" delay ="400">
@@ -224,13 +137,63 @@ scrollEvent = () => {
   </div>
 
 </div>
+
+<div className = "center-div1"  style = {{marginTop: "100px"}}>
+<ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
+  
+  <h1 className = "centerTitle" style = {{color: "white"}}> Solving The Blockchain Scalability Trilemma </h1>
+
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive horizontal scale-out techniques </h3>
+
+  </ScrollAnimation>
+
+
+</div>
+
+
+<TrilemmaTech/>
+
+        
+<div className = "center-div3">
+
+  <ScrollAnimation animateIn="fadeInUp"  animateOut="fadeOut" animatePreScroll = "false">
+  <h1 className = "centerTitle" style = {{color: "white"}}> TOP Network Service Layer </h1>
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> Services For Simple, Flexible, and Scalable DApp Development </h3>    
+
+  </ScrollAnimation>
+         
+
+</div>
+<div className = "contract-div">
+<img alt = "" className = "contract-pic" src = {require("../../assets/img/contract.png")}/>
+
+  <div  id = "featureWrapContract" className = "featureWrap">
+
+  <div className = "features">
+    <ScrollAnimation animateIn="fadeInUp">
+    <SmallCard  title = "Platform Contracts" subtitle = "Extremely Secure Platform Level Contracts For Value Transfer" imgURL = "/smart.png"  /> 
+    </ScrollAnimation>
+
+
+
+    <ScrollAnimation animateIn="fadeInUp" delay ="400">
+    <SmallCard title = "Application Contracts" subtitle = "Flexible and Secure Application Layer Contracts For Complex Business Logic" imgURL = "/smartphone.png" />
+    </ScrollAnimation>
+
+  </div>
+  </div>
+
+</div>
+
+
+
 <ScrollAnimation animateIn="fadeInUp"   duration = "2" >
 <div className = "center-div2">
   
 <ScrollAnimation animateIn="fadeInUp"  duration = "2" >
 
-  <h1 className = "centerTitle" style = {{color: "white"}}> TOP Network Service Layer </h1>
-  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Also Provides An Open, Full-Stack Decentralized Communications Network, Allowing Developers To Easily Integrate Low-Cost Communcations  Functions Into Their Apps</h3>    
+  <h1 className = "centerTitle" style = {{color: "white"}}> Full-Stack Decentralized Cloud Communications Services </h1>
+  <h3 className = "centerSubTitle" style = {{color: "white"}}> TOP Also Provides An Open, Full-Stack Decentralized Communications Mesh Network, Allowing Developers To Easily Integrate Low-Cost Communications Functions Into Their Apps</h3>    
      
   </ScrollAnimation>
 

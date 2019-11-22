@@ -1,10 +1,7 @@
 import React from "react";
-// react component for creating beautiful carousel
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
 
-import "../comp.css"
+
+import "../Components.css"
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import SmallCard from "components/Card/SmallCard.jsx";

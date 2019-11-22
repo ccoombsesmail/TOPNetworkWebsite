@@ -7,7 +7,6 @@ import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 
 import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
 
@@ -23,22 +22,74 @@ function Footer({ ...props }) {
   });
   return (
     <footer className={footerClasses}>
-      <div className={classes.container}>
-        <div className={classes.left}>
-          <List className={classes.list}>
-           
-           
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
-          </List>
-        </div>
+      <div style = {{display: "inline-flex", alignText: "left"}} className={classes.container}>
+  
+
+
+      <List style = {{ display: "inline-block"}}  >  
+           <ListItem >
+             <a
+               href="https://www.creative-tim.com/license"
+               className={classes.block}
+               target="_blank"
+             >
+               Licenses
+             </a>
+           </ListItem>
+           <ListItem >
+             <a
+               href="https://www.creative-tim.com/license"
+               className={classes.block}
+               target="_blank"
+             >
+               About
+             </a>
+           </ListItem>
+         </List>
+
+         <List >
+             
+             <ListItem >
+               <a
+                 href="https://www.creative-tim.com/license"
+                 className={classes.block}
+                 target="_blank"
+               >
+                 Stuff
+               </a>
+             </ListItem>
+             <ListItem >
+               <a
+                 href="https://www.creative-tim.com/license"
+                 className={classes.block}
+                 target="_blank"
+               >
+                 Stuff
+               </a>
+             </ListItem>
+           </List>
+           <List >
+             
+             <ListItem >
+               <a
+                 href="https://www.creative-tim.com/license"
+                 className={classes.block}
+                 target="_blank"
+               >
+                 Things
+               </a>
+             </ListItem>
+             <ListItem >
+               <a
+                 href="https://www.creative-tim.com/license"
+                 className={classes.block}
+                 target="_blank"
+               >
+                 Stuff
+               </a>
+             </ListItem>
+           </List>
+      
         
       </div>
     </footer>

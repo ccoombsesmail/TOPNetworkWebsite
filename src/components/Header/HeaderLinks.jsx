@@ -7,13 +7,11 @@ import { Link } from "gatsby";
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
 
 // React icons
-import { FaTwitter } from 'react-icons/fa';
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";

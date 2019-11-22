@@ -8,7 +8,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
@@ -65,7 +64,6 @@ class Header extends React.Component {
       color,
       rightLinks,
       leftLinks,
-      brand,
       fixed,
       absolute
     } = this.props;
@@ -75,7 +73,7 @@ class Header extends React.Component {
       [classes.absolute]: absolute,
       [classes.fixed]: fixed
     });
-    const brandComponent = <Link to="/" className={classes.title}> <img  className = "logo" src={require("../../assets/img/logo.png")}/>   </Link>;
+    const brandComponent = <Link to="/" className={classes.title}> <img alt = "" className = "logo" src={require("../../assets/img/logo.png")}/>   </Link>;
     return (
      
       <AppBar className={appBarClasses}>
@@ -94,7 +92,7 @@ class Header extends React.Component {
             {rightLinks}
           </Hidden>
           <Hidden mdUp>
-            <IconButton
+            <IconButton  
               color="inherit"
               aria-label="open drawer"
               onClick={this.handleDrawerToggle}
@@ -105,6 +103,7 @@ class Header extends React.Component {
         </Toolbar>
         <Hidden mdUp implementation="css">
           <Drawer
+
             variant="temporary"
             anchor={"right"}
             open={this.state.mobileOpen}

@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./smallcard.css"
-import img1 from "../../assets/img/gas.png"
 
 const smallcard = (props) => {
 
@@ -32,7 +31,7 @@ const smallcard = (props) => {
 
     let img2 = props.imgURL
     let m = 10
-    if (props.margin == 100) {
+    if (props.margin === 100) {
          m = 50
     }
 
@@ -42,7 +41,7 @@ const smallcard = (props) => {
         <div className = "wrapper" style = {{margin: m + "px"}}>
 
         <div className = "contents"   >
-         <img className = "icon" src = {require("../../assets/img" + img2)} />  
+         <img alt = "" className = "icon" src = {require("../../assets/img" + img2)} />  
     
     
             <h2> {props.title} </h2>

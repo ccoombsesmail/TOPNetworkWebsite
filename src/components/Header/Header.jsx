@@ -88,7 +88,7 @@ class Header extends React.Component {
               brandComponent
             )}
           </div>
-          <Hidden lgDown implementation="css">
+          <Hidden mdDown implementation="css">
             {rightLinks}
           </Hidden>
           <Hidden lgUp>

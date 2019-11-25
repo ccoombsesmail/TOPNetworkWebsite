@@ -29,18 +29,22 @@ const PictureDiv = (props) =>  {
         return (
 
          <div>
-            <ScrollAnimation animateIn="fadeInUp"   duration = "2" >
+                       <ScrollAnimation animateIn="fadeInRight"  >
+
             <div className = "picture-div" >
               
-            <ScrollAnimation animateIn="fadeInUp"  duration = "2" >
-            
-              <h1 className = "centerTitle" style = {{color: "white"}}> {props.title} </h1>
-              <h3 className = "centerSubTitle" style = {{color: "white"}}> {props.subtitle} </h3>    
+            <ScrollAnimation animateIn="fadeInLeft" >
+
+              <h1 style = {{color: "black", maxWidth: "1000px", marginLeft: "3vw"}}> {props.title} </h1>
+              <h3  style = {{color: "black", maxWidth: "900px", marginLeft: "3vw"}}> {props.subtitle} </h3>    
                  
               </ScrollAnimation>
+
+              {props.children}
             
             </div>
             </ScrollAnimation>
+
             </div>
         )
 

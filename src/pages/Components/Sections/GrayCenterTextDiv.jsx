@@ -23,7 +23,9 @@ const GrayCenterTextDiv = (props) =>  {
         third: {
             marginTop: "200px", 
             paddingTop: "100px", 
-            paddingBottom: "100px"
+            paddingBottom: "100px",
+            backgroundColor: "black"
+
 
         }
 

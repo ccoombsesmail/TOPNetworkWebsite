@@ -9,12 +9,13 @@ height: 25vh;
 margin: 10px;
 text-align: center;
 
+
 }
 
 .contents {
 
     display: inline-block;
-    margin-top: 10%;
+    margin-top: 0%;
     max-width: 97%;
 
 }
@@ -40,6 +41,7 @@ height: 120px;
         margin-bottom: 30%;
         height: 35vh;
         margin: 10px !important;
+        float: none !important;
 
 
     }
@@ -53,6 +55,7 @@ height: 120px;
 
         display: block;
         margin-top: 200px;
+        
        
 
 
@@ -72,6 +75,7 @@ height: 120px;
         .contents {
     
             display: block;
+
     
     
         }

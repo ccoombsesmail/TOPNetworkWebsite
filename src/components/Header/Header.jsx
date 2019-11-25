@@ -88,10 +88,10 @@ class Header extends React.Component {
               brandComponent
             )}
           </div>
-          <Hidden smDown implementation="css">
+          <Hidden lgDown implementation="css">
             {rightLinks}
           </Hidden>
-          <Hidden mdUp>
+          <Hidden lgUp>
             <IconButton  
               color="inherit"
               aria-label="open drawer"

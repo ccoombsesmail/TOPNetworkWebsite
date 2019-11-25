@@ -69,8 +69,8 @@ class TrilemmaTech extends React.Component {
 <div>
             <ScrollAnimation animateIn="fadeInRight">
             <div className = "left-div">
-            <img alt = "" style = {styles.img} src = {require("assets/img/layerscaling1.png")} />
-            <div style = {styles.descriptiondiv}>
+{/*             <img alt = "" style = {styles.img} src = {require("assets/img/layerscaling1.png")} />
+ */}            <div style = {styles.descriptiondiv}>
               <h1 className = "maindescription"> Multi-Layer Scaling</h1>
               <h3 className = "subdescription"> Layer-0: Gossip Based p2p Overlay Network </h3>
               <h3 className = "subdescription"> Layer-1: State, Compute, Network Sharding </h3>
@@ -90,8 +90,8 @@ class TrilemmaTech extends React.Component {
   <h3 className = "subdescription"> Three-Layer Compute Sharding </h3>
   <h3 className = "subdescription"> Three-Layer Network Sharding</h3>
 </div>
-<img alt = "" style = {styles.img} src = {require("assets/img/shardingmulti.png")} />
-</div>
+{/* <img alt = "" style = {styles.img} src = {require("assets/img/shardingmulti.png")} />
+ */}</div>
 
 </ScrollAnimation>
 
@@ -102,8 +102,8 @@ class TrilemmaTech extends React.Component {
   
   <div className = "left-div">
   
-  <img alt = "" style = {styles.img} src = {require("assets/img/lattice1.png")} />
-  
+{/*   <img alt = "" style = {styles.img} src = {require("assets/img/lattice1.png")} />
+ */}  
   <div style = {styles.descriptiondiv}>
     <h1 className = "maindescription">DAG-Based Lattice Data Structure </h1>
     <h3 className = "subdescription"> Unit-Lattice: Parallel Consensus On Account Chains</h3>

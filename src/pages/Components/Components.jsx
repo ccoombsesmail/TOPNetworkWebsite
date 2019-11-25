@@ -21,13 +21,12 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 
 import MainDescription from "./Sections/MainDescription.jsx"
-import TrilemmaTech from "./Sections/TrilemmaTech"
 import WhatIsTOP from "./Sections/WhatIsTOP.jsx";
 import GrayCenterTextDiv from "./Sections/GrayCenterTextDiv.jsx";
 import PictureDiv from "./Sections/PictureDiv.jsx";
 import TopChainFeatures from "./Sections/TopChainFeatures.jsx";
-import CommunicationsServices from "./Sections/CommunicationsServices.jsx";
 import SmartContractDiv from "./Sections/SmartContractDiv.jsx";
+import IndustrySpecificServices from "./Sections/IndustrySpecificServices"
 
 
 
@@ -48,7 +47,7 @@ class Components extends React.Component {
           fixed
           color="transparent"
           changeColorOnScroll={{
-            height: 400,
+            height: 700,
             color: "black"
           }}
           {...rest}
@@ -61,7 +60,7 @@ class Components extends React.Component {
                 <ScrollAnimation animateIn="fadeIn">
 
                   <h6 className={classes.title}  >TOP Network</h6>
-                  <h3 className={classes.subtitle} >A High-Performance Public Blockchain Platform and Decentralized Communications Infrastructure </h3>
+                  <h3 className={classes.subtitle} >A High-Performance Public Blockchain Platform and Decentralized Application Development Framework </h3>
 
                   </ScrollAnimation>
                 </div>
@@ -86,32 +85,41 @@ class Components extends React.Component {
 
 <GrayCenterTextDiv 
 divnumber = "first" 
-title = "TOP Chain Features" 
-subtitle = "TOP Chain Is A Blazing Fast and Completely Permisionless Public Chain With Carefully Crafted Token Economics"/>
+title = "Next Generation Blockchain Infrastructure" 
+subtitle = "TOP Chain Is A Blazing Fast Fully-Sharded and Completely Permisionless Public Chain With Carefully Crafted Token Economics."/>
 
 <TopChainFeatures/>
 
-<GrayCenterTextDiv  
+
+
+{/* <GrayCenterTextDiv  
 divnumber = "second" 
 title = "Solving The Blockchain Scalability Trilemma" 
 subtitle = "TOP Network overcomes the blockchain scalability trilemma through innovative comprehensive horizontal scale-out techniques"/>
 
-<TrilemmaTech/>
+<TrilemmaTech/> */}
 
 <GrayCenterTextDiv 
 divnumber = "third" 
 title = "TOP Network Service Layer" 
-subtitle = "Services For Simple, Flexible, and Scalable DApp Development"/>
+subtitle = "TOP Enabales Real-World Business On The Blockchain By Providing An Array of Services and Developer Tools For Simple, Flexible, and Scalable DApp Development"/>
        
 <SmartContractDiv/>
 
 
-
+{/*
 <PictureDiv 
 title = "Full-Stack Decentralized Cloud Communications Services" 
 subtitle = "TOP Also Provides An Open, Full-Stack Decentralized Communications Mesh Network, Allowing Developers To Easily Integrate Low-Cost Communications Functions Into Their Apps"/>
 
 <CommunicationsServices/>
+*/}
+
+<PictureDiv 
+title = "Full-Stack Industry Specific Development Frameworks" subtitle = "Comprehensive Developer Tools Allowing Even Non-Blockchain Developers To Develop Complex Blockchain DApps"> 
+<IndustrySpecificServices/>
+</PictureDiv>
+
 
 
 <ScrollAnimation animateIn="fadeInUp">

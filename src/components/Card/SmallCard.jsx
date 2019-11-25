@@ -30,15 +30,12 @@ const smallcard = (props) => {
     } */
 
     let img2 = props.imgURL
-    let m = 10
-    if (props.margin === 100) {
-         m = 50
-    }
+    
 
     return (
 
 
-        <div className = "wrapper" style = {{margin: m + "px"}}>
+        <div className = "wrapper" style = {{margin: props.margin + "px", color: props.color, float: props.float}}>
 
         <div className = "contents"   >
          <img alt = "" className = "icon" src = {require("../../assets/img" + img2)} />  

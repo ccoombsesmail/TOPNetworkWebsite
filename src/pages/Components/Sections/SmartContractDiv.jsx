@@ -23,7 +23,12 @@ class SmartContractDiv extends React.Component {
             <img alt = "" className = "contract-pic" src = {require("../../../assets/img/contract.png")}/>
             
               <div  id = "featureWrapContract" className = "featureWrap">
-            
+              <ScrollAnimation animateIn="fadeInRight">
+              <h1 style = {{display: "block", marginTop: "100px"}}>Smart Contracts</h1>
+              <h3 style = {{display: "block"}}>Two Types Of Smart Contracts For Secure and Flexible DApp development</h3>
+              </ScrollAnimation>
+
+
               <div className = "features">
             
                 <ScrollAnimation animateIn="fadeInUp">
@@ -38,7 +43,7 @@ class SmartContractDiv extends React.Component {
                 <ScrollAnimation animateIn="fadeInUp" delay ="400">
                 <SmallCard 
                 title = "Application Contracts" 
-                subtitle = "Flexible and Secure Application Layer Contracts For Complex Business Logic" 
+                subtitle = "Flexible Application Layer Contracts For Complex Business Logic" 
                 imgURL = "/smartphone.png" />
                 </ScrollAnimation>
             

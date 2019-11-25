@@ -20,16 +20,16 @@
   
 
   .picture-div{ 
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
     padding-top: 80px;
-    padding-bottom: 200px;
-    height: 600px;
-    background: black;  
-    background-image: url("../../assets/img/network.jpg");
+    height: 1200px;
+    background-image: url("../../assets/img/appdev3.jpg");
+    background-size: cover;
       
   }
- 
+
+  
 
   .contract-div {
 
@@ -56,8 +56,6 @@
     display: inline-block;
     width:70%;
     
-    
-
   }
 
 
@@ -132,15 +130,23 @@
     }
   
 
+    @media only screen and (max-width: 1620px) {
+      .picture-div {
+        height: 800px;
+        background-image: url("../../assets/img/appdev4.jpg");
 
+      }
+    }
     @media only screen and (max-width: 600px) {
       .centerTitle {
-        font-size: 7vw;
+        font-size: 7.5vw;
         padding: 0 5px 5px;
+        font-weight: bold;
       }
       .centerSubTitle {
         
         font-size: 5vw;
+        width: 90%;
 
 
         

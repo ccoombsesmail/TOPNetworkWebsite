@@ -40,7 +40,7 @@ class SmartContractDiv extends React.Component {
             
             
             
-                <ScrollAnimation animateIn="fadeInUp" delay ="400">
+                <ScrollAnimation animateIn="fadeInUp" delay ="200">
                 <SmallCard 
                 title = "Application Contracts" 
                 subtitle = "Flexible Application Layer Contracts For Complex Business Logic" 

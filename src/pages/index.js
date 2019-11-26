@@ -7,6 +7,8 @@ import 'typeface-roboto';
 import 'typeface-roboto-slab';
 // pages for this product
 import Components from "./Components/Components.jsx";
+import TeamPage from "./TeamPage/TeamPage.jsx";
+
 
 let hist = createMemoryHistory();
 
@@ -16,8 +18,12 @@ export default () => (
      
 {/*       <Route path="/team" component={TeamPage} />
  */}
+      <Route path="/team-page" component={TeamPage} />
       <Route path="/" component={Components} />
+
+
           
     </Switch>
   </Router>
+
 );

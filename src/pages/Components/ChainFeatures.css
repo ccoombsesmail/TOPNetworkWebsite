@@ -1,0 +1,76 @@
+
+
+
+  .chainFeaturesSmallScreen{
+
+    display: none;
+  }
+
+
+  
+  .featureWrap{
+
+    text-align: center;
+    
+
+  }
+  
+
+
+    .features {
+      padding-top: 10vh;
+      display: inline-flex;  
+
+     
+   
+    }
+
+
+
+  .featureWrapSmall {
+
+    width: 100%;
+    text-align: center;
+
+  }
+
+
+  .featuresSmall {
+
+    display: inline-flex;
+  }
+
+@media only screen and (max-width: 600px) {
+
+
+    .chainFeaturesBigScreen{
+
+        display: none;
+      }
+
+      .animate {
+        width: 48% !important;
+        display: inline-block;
+
+      }
+
+      
+  .chainFeaturesSmallScreen{
+
+    display: block;
+
+  }
+
+  .features{
+
+    display: block;
+    padding-top: 0px;
+
+
+  }
+
+  
+
+
+
+}

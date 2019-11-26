@@ -88,7 +88,7 @@ divnumber = "first"
 title = "Next Generation Blockchain Infrastructure" 
 subtitle = "TOP Chain Is A Blazing Fast Fully-Sharded and Completely Permisionless Public Chain With Carefully Crafted Token Economics."/>
 
-<TopChainFeatures/>
+<TopChainFeatures />
 
 
 
@@ -102,7 +102,7 @@ subtitle = "TOP Network overcomes the blockchain scalability trilemma through in
 <GrayCenterTextDiv 
 divnumber = "third" 
 title = "TOP Network Service Layer" 
-subtitle = "TOP Enabales Real-World Business On The Blockchain By Providing An Array of Services and Developer Tools For Simple, Flexible, and Scalable DApp Development"/>
+subtitle = "TOP Enables Real-World Business On The Blockchain By Providing An Array of Services and Developer Tools For Simple, Flexible, and Scalable DApp Development"/>
        
 <SmartContractDiv/>
 

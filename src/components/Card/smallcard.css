@@ -44,6 +44,8 @@ height: 120px;
         float: none !important;
 
 
+
+
     }
     .icon{
         width:80px;
@@ -54,31 +56,43 @@ height: 120px;
     .contents {
 
         display: block;
-        margin-top: 200px;
-        
-       
+        margin-top: 50px;
+        margin-left: 0px;
+
 
 
     }
 
+    .contents h2 {
+        font-size: 5vw;
+    }
 
-    @media only screen and (max-width: 350px) {
+
+    .contents h3 {
+        font-size: 4vw;
+    }
+
+
+    @media only screen and (max-width: 375px) {
 
         .wrapper {
     
             width: 100%;
             margin-bottom: 60%;
+            float: "left"
     
         }
-    
+
+       
        
         .contents {
     
             display: block;
 
     
-    
         }
+
+       
     
     
     

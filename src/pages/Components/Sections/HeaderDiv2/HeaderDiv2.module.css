@@ -1,0 +1,57 @@
+.Wrapper{ 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    margin-top: 200px; 
+    background-color: black;
+
+  }
+
+
+
+
+  
+ .Title{
+
+    display: block;
+    font-weight: 400;
+    color: white;
+
+  }
+  .SubTitle{
+
+    display: inline-block;
+    width:70%;
+    color: white;
+
+    
+  }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Title {
+      font-size: 7.5vw;
+      padding: 0 5px 5px;
+      font-weight: bold;
+    }
+    .SubTitle {
+      
+      font-size: 5vw;
+      width: 90%;
+
+
+      
+
+    }
+    .Wrapper{
+      padding-top: 70px;
+    padding-bottom: 70px;
+
+
+    }
+
+}
+  

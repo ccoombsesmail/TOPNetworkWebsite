@@ -4,22 +4,21 @@ import classNames from "classnames";
 // react components for routing our app without refresh
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-// @material-ui/icons
-// core components
+import "./LandingPage.css"
+import "animate.css/animate.min.css";
+import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
+
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-// sections for this page
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
-import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-import "./Components.css"
-import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
+// sections for this page
+import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import MainDescription from "./Sections/MainDescription/MainDescription.jsx";
 import WhatIsTOP from "./Sections/WhatIsTOP/WhatIsTOP.jsx";
 import HeaderDiv1 from "./Sections/HeaderDiv1/HeaderDiv1.jsx"
@@ -33,7 +32,7 @@ import SmartContractDiv from "./Sections/SmartContractDiv/SmartContractDiv.jsx";
 
 
 
-class Components extends React.Component {
+class LandingPage extends React.Component {
 
 
 
@@ -122,4 +121,4 @@ subtitle = "TOP Enables Real-World Business On The Blockchain By Providing An Ar
   }
 }
 
-export default withStyles(componentsStyle)(Components);
+export default withStyles(componentsStyle)(LandingPage);

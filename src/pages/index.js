@@ -6,7 +6,7 @@ import "assets/scss/material-kit-react.scss?v=1.4.0";
 import 'typeface-roboto';
 import 'typeface-roboto-slab';
 // pages for this product
-import Components from "./Components/Components.jsx";
+import LandingPage from "./LandingPage/LandingPage.jsx";
 import TeamPage from "./TeamPage/TeamPage.jsx";
 
 
@@ -19,7 +19,7 @@ export default () => (
 {/*       <Route path="/team" component={TeamPage} />
  */}
       <Route path="/team-page" component={TeamPage} />
-      <Route path="/" component={Components} />
+      <Route path="/" component={LandingPage} />
 
 
           

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./smallcard.css"
+import styles from "./SmallCardStyles.module.css"
 
 const smallcard = (props) => {
 
@@ -35,10 +35,10 @@ const smallcard = (props) => {
     return (
 
 
-        <div className = "wrapper" style = {{margin: props.margin + "px", color: props.color, float: props.float}}>
+        <div className = {styles.wrapper} style = {{margin: props.margin + "px", color: props.color, float: props.float}}>
 
-        <div className = "contents"   >
-         <img alt = "" className = "icon" src = {require("../../assets/img" + img2)} />  
+        <div className = {styles.contents}   >
+         <img alt = "" className = {styles.icon} src = {require("../../assets/img" + img2)} />  
     
     
             <h2> {props.title} </h2>

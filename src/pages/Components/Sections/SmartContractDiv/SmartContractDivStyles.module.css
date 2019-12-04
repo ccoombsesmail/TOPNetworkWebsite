@@ -1,0 +1,81 @@
+.contractDivWrapper {
+
+    margin-bottom: 30vh;
+    text-align: left;
+   
+  }
+
+  .contractPic {
+
+    width: 40%;
+    display: inline-block;
+    float: left;
+
+  }
+
+
+  .featureWrap{
+
+    text-align: center;
+    
+
+  }
+  
+
+
+    .features {
+      padding-top: 10vh;
+      display: inline-flex;  
+
+     
+   
+    }
+
+    .title {
+
+       display: block;
+       margin-top: 100px;
+    }
+
+ 
+ 
+
+
+
+    @media only screen and (max-width: 600px) {
+        
+        .featureWrap {
+        padding-top: 20vh;
+    
+        
+      }
+
+      .contractDivWrapper {
+
+    
+        margin-bottom: 10vh;
+   
+
+      }
+
+      .contractPic {
+
+        width: 80%;
+        float: bottom;
+        margin-left: 10%;
+
+      }
+
+
+
+      .title {
+        font-size: 7vw;
+        font-weight: 700;
+        
+     }
+ 
+     .subTitle {
+ 
+        font-size: 6vw;
+    }
+}

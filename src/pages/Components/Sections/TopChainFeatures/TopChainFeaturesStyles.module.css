@@ -25,22 +25,24 @@
    
     }
 
+    .featureWrapSmall {
 
+      width: 100%;
+      text-align: center;
+  
+    }
+  
+  
+    .featuresSmall {
+  
+      display: inline-flex;
+    }
 
-  .featureWrapSmall {
-
-    width: 100%;
-    text-align: center;
-
-  }
-
-
-  .featuresSmall {
-
-    display: inline-flex;
-  }
 
 @media only screen and (max-width: 600px) {
+
+  
+
 
 
     .chainFeaturesBigScreen{

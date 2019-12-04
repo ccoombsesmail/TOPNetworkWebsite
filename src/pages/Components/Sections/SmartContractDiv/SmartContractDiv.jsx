@@ -1,7 +1,6 @@
 import React from "react";
 
-
-import "../Components.css"
+import styles from "./SmartContractDivStyles.module.css"
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import SmallCard from "components/Card/SmallCard.jsx";
@@ -18,18 +17,18 @@ class SmartContractDiv extends React.Component {
 
         return (
 
-            <div className = "contract-div">
+            <div className = {styles.contractDivWrapper}>
 
-            <img alt = "" className = "contract-pic" src = {require("../../../assets/img/contract.png")}/>
+            <img alt = "" className = {styles.contractPic} src = {require("../../../../assets/img/contract.png")}/>
             
-              <div  id = "featureWrapContract" className = "featureWrap">
+              <div className = {styles.featureWrap}>
               <ScrollAnimation animateIn="fadeInRight">
-              <h1 style = {{display: "block", marginTop: "100px"}}>Smart Contracts</h1>
-              <h3 style = {{display: "block"}}>Two Types Of Smart Contracts For Secure and Flexible DApp development</h3>
+              <h1 className = {styles.title} >Smart Contracts</h1>
+              <h3 className = {styles.subTitle}>Two Types Of Smart Contracts For Secure and Flexible DApp development</h3>
               </ScrollAnimation>
 
 
-              <div className = "features">
+              <div className = {styles.features}>
             
                 <ScrollAnimation animateIn="fadeInUp">
                 <SmallCard  

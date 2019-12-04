@@ -1,7 +1,6 @@
 import React from "react";
 
 
-import "../Components.css"
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import SmallCard from "components/Card/SmallCard.jsx";

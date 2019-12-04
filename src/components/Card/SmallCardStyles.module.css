@@ -10,6 +10,8 @@ margin: 10px;
 text-align: center;
 
 
+
+
 }
 
 .contents {
@@ -31,9 +33,25 @@ height: 120px;
 
 }
 
+@media only screen and (max-width: 1200px) {
+
+    .contents h2 {
+        font-size: 2.5vw;
+    }
 
 
-@media only screen and (max-width: 600px) {
+    .contents h3 {
+        font-size: 1.8vw;
+    }
+
+  
+
+
+}
+
+
+
+@media only screen and (max-width: 780px) {
 
     .wrapper {
 

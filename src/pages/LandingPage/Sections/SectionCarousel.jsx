@@ -12,6 +12,7 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 import image1 from "assets/img/flashex.png";
 import image2 from "assets/img/mainlaunch.png";
 import image3 from "assets/img/hack.png";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class SectionCarousel extends React.Component {
   render() {
@@ -26,6 +27,11 @@ class SectionCarousel extends React.Component {
     };
     return (
       <div className={classes.section}>
+        <ScrollAnimation animateIn="fadeInUp">
+        <div style = {{textAlign: "center", paddingTop: "300px", paddingBottom: "100px", fontSize: "3vw"}}>
+        <h1 className = "center"> Latest News </h1>
+        </div>
+        </ScrollAnimation>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={10} className={classes.marginAuto}>

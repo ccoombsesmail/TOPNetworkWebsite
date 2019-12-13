@@ -33,11 +33,11 @@ return (
 
               <div className = {styles.services}>
     
-              <ScrollAnimation animateIn="fadeInLeft"   delay ="200"  animateOut = "fadeOutUp">
+              <ScrollAnimation animateIn="fadeInLeft"   delay ="200" >
               <SmallCard color = "black" float = "left" title = "Communications" subtitle = "Full-Stack Decentralized Communcations Services Allowing Developers To Easily Integrate Communcations Functions Into Their DApps " imgURL = "/communications.png" /> 
               </ScrollAnimation>
 
-              <ScrollAnimation  animateIn="fadeInLeft" animateOut = "fadeOutUp"  >
+              <ScrollAnimation  animateIn="fadeInLeft" >
               <SmallCard float = "left"  color = "black" imgURL = "/controller.png"  title = "Gaming" subtitle = "Framework For Fast and Easy Blockchain Game Development" /> 
               </ScrollAnimation>
 

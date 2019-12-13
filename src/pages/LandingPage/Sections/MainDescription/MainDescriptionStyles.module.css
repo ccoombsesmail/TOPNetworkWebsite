@@ -15,5 +15,16 @@
       padding-top: 10vh;
       display: inline-flex;  
     }
+
+    
+
+    @media only screen and (max-width: 600px) {
+      .features {
+        padding-top: 4vh;
+
+
+        }
+
+      }
      
    

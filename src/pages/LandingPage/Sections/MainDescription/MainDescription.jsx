@@ -25,7 +25,9 @@ class MainDescription extends React.Component {
     imgURL = "/blockchain.png" 
     margin = "50" /> 
     </ScrollAnimation>
+    </div>
 
+    <div className = {styles.features}>
 
     <ScrollAnimation animateIn="fadeInUp" delay ="200" >
     <SmallCard title = "Platform Services" 
@@ -34,6 +36,8 @@ class MainDescription extends React.Component {
     margin = "50" /> 
     </ScrollAnimation>
 
+    </div>
+    <div className = {styles.features}>
 
     <ScrollAnimation animateIn="fadeInUp" delay ="400">
     <SmallCard title = "80 Million User App Ecosystem" 

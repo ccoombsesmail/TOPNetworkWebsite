@@ -101,11 +101,7 @@ subtitle = "TOP Enables Real-World Business On The Blockchain By Providing An Ar
 <ServiceFrameworks/>
 
 
-<ScrollAnimation animateIn="fadeInUp">
-    <div style = {{textAlign: "center", paddingTop: "300px", paddingBottom: "100px"}}>
-        <h1 className = "center"> Latest News </h1>
-    </div>
-</ScrollAnimation>
+
 
 
 <SectionCarousel />

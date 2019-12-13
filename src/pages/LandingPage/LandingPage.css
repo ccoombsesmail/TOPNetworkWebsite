@@ -6,26 +6,6 @@
 }
 
 
-
-
-
-
-  
-
-  .contract-div {
-
-    margin-bottom: 30vh;
-    text-align: left;
-   
-  }
-
-  .contract-pic {
-
-    width: 40%;
-    display: inline-block;
-    float: left;
-
-  }
  
   .centerTitle{
 
@@ -41,85 +21,12 @@
   }
 
 
-  .img1 {
-    width: 100%;
-
-  }
-
-  .left-div {
-
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 15vh;
-    padding-bottom: 10vh;
-
-  }
-
-  
-  .img2{
-
-    display: inline-block;
-    width: 30%;
-    margin-left: 3%;
-
-
-
-  }
-
- 
-  .maindescription{
-
-    font-size: 4vw;
-    font-weight: 600;
-    margin-top: 10%;
-    color: black;
-
-
-  }
-
-  .subdescription {
-    font-size: 2vw;
-    font-weight: 400;
-
-
-  }
-
-
-  #featureWrapTop{
-    margin-top: -100px !important;
-    padding-bottom: 200px;
-  }
- 
-  .featureWrap{
-
-    text-align: center;
-    
-
-  }
-  
-
-
-    .features {
-      padding-top: 10vh;
-      display: inline-flex;  
-
-     
-   
-    }
-
 
 
    
   
 
-    @media only screen and (max-width: 1620px) {
-      .picture-div {
-        height: 800px;
-        background-image: url("../../assets/img/appdev4.jpg");
-
-      }
-    }
+   
     @media only screen and (max-width: 600px) {
       .centerTitle {
         font-size: 7.5vw;
@@ -135,52 +42,7 @@
         
 
       }
-      .contract-div {
-
-    
-        margin-bottom: 30vh;
-   
-
-      }
-
-      .contract-pic {
-
-        width: 80%;
-        float: bottom;
-        margin-left: 10%;
-
-      }
-
-      #featureWrapContract {
-        padding-top: 20vh;
-    
-        
-      }
-
-      .features{
-
-        display: block;
-        padding-top: 0px;
-
-
-      }
-      .maindescription{
-
-        font-size: 5vw;
-        font-weight: 600;
-    
-    
-      }
-    
-      .subdescription {
-        font-size: 3vw;
-        font-weight: 400;
-    
-    
-    
-      }
-
-    
+      
 
     
     }

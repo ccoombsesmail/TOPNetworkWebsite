@@ -17,11 +17,10 @@ const ServiceFrameworks = () =>  {
 return (
 
 <div>
-      <ScrollAnimation animateIn="fadeInRight"  >
+      <ScrollAnimation className = {styles.pictureHeaderDiv} animateIn="fadeInRight"  >
 
-        <div className = {styles.pictureHeaderDiv}>
               
-            <ScrollAnimation animateIn="fadeInLeft" >
+            <ScrollAnimation animateIn="fadeInLeft" delay ="200" >
 
             <h1 className ={styles.title} > Full-Stack Industry Specific Development Frameworks</h1>
             <h3 className = {styles.subTitle}> Comprehensive Developer Tools Allowing Even Non-Blockchain Developers To Develop Complex Blockchain DApps </h3>    
@@ -33,11 +32,11 @@ return (
 
               <div className = {styles.services}>
     
-              <ScrollAnimation animateIn="fadeInLeft"   delay ="200" >
+              <ScrollAnimation animateIn="fadeInLeft"   delay ="400"  >
               <SmallCard color = "black" float = "left" title = "Communications" subtitle = "Full-Stack Decentralized Communcations Services Allowing Developers To Easily Integrate Communcations Functions Into Their DApps " imgURL = "/communications.png" /> 
               </ScrollAnimation>
 
-              <ScrollAnimation  animateIn="fadeInLeft" >
+              <ScrollAnimation  animateIn="fadeInLeft"  delay ="200"  >
               <SmallCard float = "left"  color = "black" imgURL = "/controller.png"  title = "Gaming" subtitle = "Framework For Fast and Easy Blockchain Game Development" /> 
               </ScrollAnimation>
 
@@ -48,7 +47,6 @@ return (
             
 
 
-         </div>
 
         </ScrollAnimation>
 

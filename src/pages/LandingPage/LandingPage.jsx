@@ -21,8 +21,10 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import MainDescription from "./Sections/MainDescription/MainDescription.jsx";
 import WhatIsTOP from "./Sections/WhatIsTOP/WhatIsTOP.jsx";
-import HeaderDiv1 from "./Sections/HeaderDiv1/HeaderDiv1.jsx"
-import HeaderDiv2 from "./Sections/HeaderDiv2/HeaderDiv2.jsx"
+import HeaderDiv1 from "./Sections/HeaderDiv1/HeaderDiv1.jsx";
+import HeaderDiv2 from "./Sections/HeaderDiv2/HeaderDiv2.jsx";
+import HeaderDiv3 from "./Sections/HeaderDiv3/HeaderDiv3.jsx";
+import AppDiv from "./Sections/AppDiv/AppDiv.jsx";
 import ServiceFrameworks from "./Sections/ServiceFrameworks/ServiceFrameworks.jsx"
 import TopChainFeatures from "./Sections/TopChainFeatures/TopChainFeatures.jsx";
 import SmartContractDiv from "./Sections/SmartContractDiv/SmartContractDiv.jsx";
@@ -100,9 +102,11 @@ subtitle = "TOP Enables Real-World Business On The Blockchain By Providing An Ar
 
 <ServiceFrameworks/>
 
+<HeaderDiv3
+title = "Application Ecosystem" 
+subtitle = "Drawing From A Userbase of 80 Million Users"/>
 
-
-
+<AppDiv/>
 
 <SectionCarousel />
 

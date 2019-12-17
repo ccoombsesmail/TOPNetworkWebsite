@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
-const HeaderDiv3 = (props) =>  {
+const HeaderDiv3 = () =>  {
 
 
 
@@ -19,8 +19,8 @@ const HeaderDiv3 = (props) =>  {
             <div className = {styles.Wrapper}>
 
             <ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
-              <h1 className = {styles.Title} > {props.title} </h1>
-              <h3 className =  {styles.SubTitle} > {props.subtitle}  </h3>         
+              <h1 className = {styles.Title} > Application Ecosystem </h1>
+              <h3 className =  {styles.SubTitle} > Drawing From A Userbase of 80 Million Users  </h3>         
           
             </ScrollAnimation>
                    

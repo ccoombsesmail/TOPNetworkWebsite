@@ -19,8 +19,8 @@ const HeaderDiv2 = (props) =>  {
             <div className = {styles.Wrapper}>
 
             <ScrollAnimation animateIn="fadeInUp"  animatePreScroll = "false">
-              <h1 className = {styles.Title} > {props.title} </h1>
-              <h3 className =  {styles.SubTitle} > {props.subtitle}  </h3>         
+              <h1 className = {styles.Title} > TOP Network Service Layer </h1>
+              <h3 className =  {styles.SubTitle} > TOP Enables Real-World Business On The Blockchain By Providing An Array of Services and Developer Tools For Simple, Flexible, and Scalable DApp Development  </h3>         
           
             </ScrollAnimation>
                    

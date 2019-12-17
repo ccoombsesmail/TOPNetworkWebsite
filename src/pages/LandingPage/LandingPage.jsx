@@ -82,32 +82,14 @@ class LandingPage extends React.Component {
 
 
 <WhatIsTOP/>
-
-<MainDescription/>
-
-<HeaderDiv1 
-title = "Next Generation Blockchain Infrastructure" 
-subtitle = "TOP Chain Is A Fully-Sharded and Completely Permisionless Public Chain With Carefully Crafted Token Economics."/>
-
+<MainDescription/> { /* Infrastructure/Services/App Ecosystem */ }
+<HeaderDiv1/> { /* Next-Generation Blockchain Infrastructure */ }
 <TopChainFeatures />
-
-
-
-<HeaderDiv2 
-title = "TOP Network Service Layer" 
-subtitle = "TOP Enables Real-World Business On The Blockchain By Providing An Array of Services and Developer Tools For Simple, Flexible, and Scalable DApp Development"/>
-       
+<HeaderDiv2/> { /* TOP Network Service Layer */ }
 <SmartContractDiv/>
-
-
-<ServiceFrameworks/>
-
-<HeaderDiv3
-title = "Application Ecosystem" 
-subtitle = "Drawing From A Userbase of 80 Million Users"/>
-
-<AppDiv/>
-
+<ServiceFrameworks/> { /* Industry Specific Frameworks */ }
+<HeaderDiv3/> { /* Application Ecosystem */ } 
+<AppDiv/> { /* HiWallet, BitVPN etc.*/ }
 <SectionCarousel />
 
 </div>

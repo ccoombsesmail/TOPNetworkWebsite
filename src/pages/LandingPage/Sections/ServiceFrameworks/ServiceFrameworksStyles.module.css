@@ -58,7 +58,16 @@
     }
   }
 
+  @media only screen and (max-width: 900px) {
 
+    .pictureHeaderDiv{ 
+
+        height: 1000px;
+
+
+  }
+
+  }
   
   @media only screen and (max-width: 600px) {
 
